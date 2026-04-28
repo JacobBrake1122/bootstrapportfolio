@@ -1,5 +1,8 @@
 body {
     height:300vh;
+    background: #010054;
+    background: linear-gradient(90deg, rgba(1, 0, 84, 1) 0%, rgba(47, 0, 255, 1) 100%);
+    overflow-x: hidden;
 }
 .card-img-top {
      width: 100%;
@@ -7,6 +10,34 @@ body {
      object-fit: cover;
  }
  .smallpicture {
-    width: 600px;
-    height: 1250px;
+    width: 300px;
+    height: 625px;
+ }
+  .carousel-item {
+     height: 500px;
+ }
+
+ .carousel-item img {
+     height: 100%;
+     object-fit: cover;  /* Prevents stretching by cropping the edges */
+ }
+ .fontcolor {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    position: relative;
+    left: 700px;
+ }
+  .fontcolor2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    position: relative;
+    left:950px;
+ }
+  .fontcolor3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+ }
+ .img2 {
+    width:500px;
+    height:500px;
  }
